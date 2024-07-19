@@ -73,3 +73,12 @@ button:active {
 .logout-button:hover {
   background-color: #d32f2f;
 }
+
+.token-button {
+  background-color: #0a13d4; /* Rojo */
+  color: white;
+}
+
+.token-button:hover {
+  background-color: #0a13d4;
+}

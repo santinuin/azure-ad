@@ -1,18 +1,11 @@
-<div class="form-container">
-  <div class="input-container">
-    <label for="username">Username:</label>
-    <input id="username" [(ngModel)]="username" type="text" placeholder="Enter username">
-  </div>
-  <div class="input-container">
-    <label for="password">Password:</label>
-    <input id="password" [(ngModel)]="password" type="password" placeholder="Enter password">
-  </div>
-  <div class="button-container">
-    <button class="login-button" (click)="login()">
-      Login
-    </button>
-    <button class="logout-button" (click)="logout()">
-      Logout
-    </button>
-  </div>
+<div class="button-container">
+  <button class="login-button" (click)="login()">
+    Login
+  </button>
+  <button class="logout-button" (click)="logout()">
+    Logout
+  </button>
+  <button class="token-button" (click)="getToken()">
+    Token
+  </button>
 </div>
